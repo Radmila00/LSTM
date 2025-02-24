@@ -3,7 +3,7 @@ import torch.nn as nn
 import pandas as pd
 import numpy as np
 import matplotlib
-matplotlib.use('Agg')  # Добавьте эту строку в начало файла, до импорта pyplot
+matplotlib.use('Agg')  
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 
